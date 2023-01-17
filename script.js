@@ -4,6 +4,7 @@ const emailInput = document.getElementById('email-input');
 const passInput = document.getElementById('password-input');
 //
 
+// Funções
 const checkButton = () => {
   buttonSubmit.addEventListener('click', () => {
     if (
@@ -15,7 +16,10 @@ const checkButton = () => {
     }
   });
 };
+//
 
+// Executa funções
 window.onload = () => {
   checkButton();
 };
+//

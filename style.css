@@ -20,8 +20,24 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  margin: 10px;
+}
+
+#evaluation-form input {
+    margin: 6px;
+}
+
+select {
+    height: 21px;
+    width: 185px;
+    margin-left: 10px;
+    margin-top: 6px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.email-casa {
+    display: flex;
 }

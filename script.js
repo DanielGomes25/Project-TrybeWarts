@@ -4,7 +4,7 @@ const emailInput = document.getElementById('email-input');
 const passInput = document.getElementById('password-input');
 const buttonSubmitForm = document.getElementById('submit-btn');
 const agreeCheckbox = document.getElementById('agreement');
-const getArea = document.getElementById('text-area');
+const getArea = document.getElementById('textarea');
 const getNumber = document.getElementById('counter');
 //
 
@@ -34,15 +34,10 @@ const validadeButton = () => {
 };
 //
 const areaCounter = () => {
-let divHtml = getNumber.innerHTML;
-let max = getNumber.value;
-let areaCaracter = getArea.value.length;
-getArea.addEventListener('keyup', () => {
-divHtml = '501';
-}
-
-)
-}
+  getArea.addEventListener('input', () => {
+    getNumber.innerHTML = 500 - getArea.value.length;
+  });
+};
 
 // Executa funções
 window.onload = () => {

@@ -7,12 +7,15 @@ header {
     display: flex;
     background-color: rgb(50, 167, 145);
 }
+
 main {
     display: flex;
 }
+
 .trybewarts-login {
     display: flex;
 }
+
 #evaluation-form {
     display: flex;
     width: 675px;

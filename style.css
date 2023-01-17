@@ -38,7 +38,7 @@ main {
 }
 
 #trybewarts-forms-logo {
-  margin-left: 600px;
+  margin-left: 400px;
   margin-top: 120px;
   height: 500px;
 }
@@ -75,6 +75,18 @@ select {
   margin-top: 10px;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.content label {
+  margin: 4px;
+}
+
 .radio-container {
   display: flex;
   flex-direction: column;
@@ -82,8 +94,15 @@ select {
   margin-left: 170px;
 }
 
+#label-rate {
+  margin-left: 100px;
+}
+
 .rate-radio {
   display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -91,4 +110,24 @@ footer {
   text-align: center;
   padding: 24px;
   font-size: 20px;
+  margin-top: 20px;
+}
+
+.textarea {
+  text-align: center;
+}
+
+textarea , .textarea , #label-infos {
+  margin-right: 260px;
+}
+
+#submit-btn {
+  margin-right: 40px;
+  width: 415px;
+}
+
+#label-infos {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
 }

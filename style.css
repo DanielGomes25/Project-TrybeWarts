@@ -41,3 +41,19 @@ select {
 .email-casa {
     display: flex;
 }
+
+#label-family {
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  margin-left: 170px;
+}
+
+.radio-container input {
+  width: 50px;
+}

@@ -1,6 +1,6 @@
 # Project Trybewarts <h1>
 
-<img src='/home/daniel/MyProjects/Trybewarts/Project-TrybeWarts/images/Trybewarts.gif'><img>
+<img src='images/Trybewarts.gif'><img>
 
 ### Para quem gosta do universo de Harry Potter, assim como eu, vai gostar deste formulário da Trybewarts. Foi desenvolvido com campos para preencher as informações dos alunos, além de validações para garantir que os comentários tenham no máximo 500 caracteres e que os campos de login e senha recebam formatos válidos.
 
